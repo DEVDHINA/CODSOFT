@@ -77,7 +77,7 @@ def ai_move(board):
 # LOOP
 def play_game():
     board = [[' ' for _ in range(3)] for _ in range(3)]
-    print("WELCOME TO TIC TAC TOE AI!")
+    print("WELCOME TO TIC TAC TOE AI GAME!")
     print_board(board)
 
     while True:
@@ -99,7 +99,7 @@ def play_game():
             break
 
         ai_move(board)
-        print("AI's move:")
+        print("ARTIFICIAL INTELLIGENCE's move:")
         print_board(board)
 
         if is_winner(board, 'X'):
